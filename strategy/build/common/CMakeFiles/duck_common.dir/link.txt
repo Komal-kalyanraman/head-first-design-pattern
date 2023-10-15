@@ -1,2 +1,0 @@
-/usr/bin/ar qc libduck_common.a CMakeFiles/duck_common.dir/src/duck.cpp.o CMakeFiles/duck_common.dir/src/duck_fly_behaviour.cpp.o CMakeFiles/duck_common.dir/src/duck_quack_behaviour.cpp.o CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o CMakeFiles/duck_common.dir/src/duck_quack.cpp.o
-/usr/bin/ranlib libduck_common.a
