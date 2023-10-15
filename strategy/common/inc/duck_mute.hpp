@@ -1,6 +1,6 @@
 
-#ifndef _DUCK_MUTE_QUACK_H_
-#define _DUCK_MUTE_QUACK_H_
+#ifndef _DUCK_MUTE_H_
+#define _DUCK_MUTE_H_
 
 #include "duck_quack_behaviour.hpp"
 

@@ -4,4 +4,5 @@ add_library(${APP_NAME} STATIC
     src/duck_mallard.cpp
     src/duck_redhead.cpp
     src/duck_rubber.cpp
+    src/duck_decoy.cpp
 )

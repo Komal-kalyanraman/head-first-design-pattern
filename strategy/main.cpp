@@ -4,6 +4,7 @@
 #include "bl/inc/duck_mallard.hpp"
 #include "bl/inc/duck_redhead.hpp"
 #include "bl/inc/duck_rubber.hpp"
+#include "bl/inc/duck_decoy.hpp"
 
 int main(){
 
@@ -27,6 +28,13 @@ int main(){
     rubberduck->performFly();
     rubberduck->performQuack();
     rubberduck->swim();
+
+    std::unique_ptr<DecoyDuck> decoyduck = std::make_unique<DecoyDuck>();
+
+    decoyduck->display();
+    decoyduck->performFly();
+    decoyduck->performQuack();
+    decoyduck->swim();
 
     return 0;
 }
