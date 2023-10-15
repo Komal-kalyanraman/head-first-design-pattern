@@ -5,7 +5,7 @@
 #include "duck_fly_behaviour.hpp"
 
 class FlyWithWings : public FlyBehaviour {
-
+    public:
     void fly() const override;
 };
 

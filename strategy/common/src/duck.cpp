@@ -17,5 +17,5 @@ void Duck::performFly() const {
 }
 
 void Duck::swim() const {
-    std::cout << "All ducks float, even decoys!" << std::endl;
+    std::cout << "All ducks float, even decoys!" << std::endl<<std::endl;
 }

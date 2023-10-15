@@ -5,7 +5,7 @@
 #include "duck_quack_behaviour.hpp"
 
 class Quack : public QuackBehaviour{
-
+    public:
     void quack() const override;
 };
 

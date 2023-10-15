@@ -5,10 +5,8 @@
 #include "duck_quack_behaviour.hpp"
 
 class Squeak: public QuackBehaviour{
-
     public:
-
-    void quack() const;
+    void quack() const override;
 };
 
 #endif

@@ -5,7 +5,6 @@
 #include "duck_quack_behaviour.hpp"
 
 class MuteQuack : public QuackBehaviour{
-    
     public:
     void quack() const;
 };

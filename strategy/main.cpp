@@ -21,12 +21,12 @@ int main(){
     redheadduck->performQuack();
     redheadduck->swim();
 
-    // std::unique_ptr<RubberDuck> rubberduck = std::make_unique<RubberDuck>();
+    std::unique_ptr<RubberDuck> rubberduck = std::make_unique<RubberDuck>();
 
-    // rubberduck->display();
-    // rubberduck->performFly();
-    // rubberduck->performQuack();
-    // rubberduck->swim();
+    rubberduck->display();
+    rubberduck->performFly();
+    rubberduck->performQuack();
+    rubberduck->swim();
 
     return 0;
 }
