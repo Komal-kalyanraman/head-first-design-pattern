@@ -18,7 +18,7 @@ class Duck{
     Duck(std::unique_ptr<FlyBehaviour> flyBehavior, std::unique_ptr<QuackBehaviour> quackBehavior);
     
     void swim() const;
-    virtual void display();
+    virtual void display() const = 0;
     void performQuack() const;
     void performFly() const;
 
