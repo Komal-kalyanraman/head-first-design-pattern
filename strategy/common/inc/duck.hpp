@@ -9,16 +9,18 @@
 
 class Duck{
 
-    public:
-    // std::unique_ptr<FlyBehavior> flyBehavior;
-    // std::unique_ptr<QuackBehavior> quackBehavior; 
+    protected:
+    std::unique_ptr<FlyBehaviour> flyBehaviour;
+    std::unique_ptr<QuackBehaviour> quackBehaviour; 
 
     public:
     
-    void swim();
+    Duck(std::unique_ptr<FlyBehaviour> flyBehavior, std::unique_ptr<QuackBehaviour> quackBehavior);
+    
+    void swim() const;
     virtual void display();
-    void performQuack();
-    void performFly();
+    void performQuack() const;
+    void performFly() const;
 
 };
 
