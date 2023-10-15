@@ -1,5 +1,5 @@
 
-#include "inc/duck_MallardDuck.hpp"
+#include "inc/duck_mallard.hpp"
 #include <iostream>
 
 MallardDuck::MallardDuck() :

@@ -1,15 +1,15 @@
 
-#ifndef _DUCK_MALLARDDUCK_H_
-#define _DUCK_MALLARDDUCK_H_
+#ifndef _DUCK_REDHEAD_H_
+#define _DUCK_REDHEAD_H_
 
 #include "inc/duck.hpp"
 #include "inc/duck_fly_with_wings.hpp"
 #include "inc/duck_quack.hpp"
 
-class MallardDuck: public Duck{
+class RedHeadDuck: public Duck{
 
     public:
-    MallardDuck();
+    RedHeadDuck();
 
     void display() const override;
 };
