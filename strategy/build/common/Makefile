@@ -223,6 +223,54 @@ src/duck_fly_behaviour.cpp.s:
 	cd /home/komal/workspace/head-first-design-pattern/strategy/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/duck_common.dir/build.make common/CMakeFiles/duck_common.dir/src/duck_fly_behaviour.cpp.s
 .PHONY : src/duck_fly_behaviour.cpp.s
 
+src/duck_fly_with_wings.o: src/duck_fly_with_wings.cpp.o
+.PHONY : src/duck_fly_with_wings.o
+
+# target to build an object file
+src/duck_fly_with_wings.cpp.o:
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/duck_common.dir/build.make common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o
+.PHONY : src/duck_fly_with_wings.cpp.o
+
+src/duck_fly_with_wings.i: src/duck_fly_with_wings.cpp.i
+.PHONY : src/duck_fly_with_wings.i
+
+# target to preprocess a source file
+src/duck_fly_with_wings.cpp.i:
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/duck_common.dir/build.make common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.i
+.PHONY : src/duck_fly_with_wings.cpp.i
+
+src/duck_fly_with_wings.s: src/duck_fly_with_wings.cpp.s
+.PHONY : src/duck_fly_with_wings.s
+
+# target to generate assembly for a file
+src/duck_fly_with_wings.cpp.s:
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/duck_common.dir/build.make common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.s
+.PHONY : src/duck_fly_with_wings.cpp.s
+
+src/duck_quack.o: src/duck_quack.cpp.o
+.PHONY : src/duck_quack.o
+
+# target to build an object file
+src/duck_quack.cpp.o:
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/duck_common.dir/build.make common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.o
+.PHONY : src/duck_quack.cpp.o
+
+src/duck_quack.i: src/duck_quack.cpp.i
+.PHONY : src/duck_quack.i
+
+# target to preprocess a source file
+src/duck_quack.cpp.i:
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/duck_common.dir/build.make common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.i
+.PHONY : src/duck_quack.cpp.i
+
+src/duck_quack.s: src/duck_quack.cpp.s
+.PHONY : src/duck_quack.s
+
+# target to generate assembly for a file
+src/duck_quack.cpp.s:
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build && $(MAKE) $(MAKESILENT) -f common/CMakeFiles/duck_common.dir/build.make common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.s
+.PHONY : src/duck_quack.cpp.s
+
 src/duck_quack_behaviour.o: src/duck_quack_behaviour.cpp.o
 .PHONY : src/duck_quack_behaviour.o
 
@@ -266,6 +314,12 @@ help:
 	@echo "... src/duck_fly_behaviour.o"
 	@echo "... src/duck_fly_behaviour.i"
 	@echo "... src/duck_fly_behaviour.s"
+	@echo "... src/duck_fly_with_wings.o"
+	@echo "... src/duck_fly_with_wings.i"
+	@echo "... src/duck_fly_with_wings.s"
+	@echo "... src/duck_quack.o"
+	@echo "... src/duck_quack.i"
+	@echo "... src/duck_quack.s"
 	@echo "... src/duck_quack_behaviour.o"
 	@echo "... src/duck_quack_behaviour.i"
 	@echo "... src/duck_quack_behaviour.s"

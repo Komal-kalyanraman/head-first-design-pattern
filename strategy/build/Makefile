@@ -175,6 +175,19 @@ DUCK/fast:
 .PHONY : DUCK/fast
 
 #=============================================================================
+# Target rules for targets named duck_bl
+
+# Build rule for target.
+duck_bl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 duck_bl
+.PHONY : duck_bl
+
+# fast build rule for target.
+duck_bl/fast:
+	$(MAKE) $(MAKESILENT) -f bl/CMakeFiles/duck_bl.dir/build.make bl/CMakeFiles/duck_bl.dir/build
+.PHONY : duck_bl/fast
+
+#=============================================================================
 # Target rules for targets named duck_common
 
 # Build rule for target.
@@ -224,6 +237,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... DUCK"
+	@echo "... duck_bl"
 	@echo "... duck_common"
 	@echo "... main.o"
 	@echo "... main.i"

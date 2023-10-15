@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/komal/workspace/head-first-design-pattern/strategy/common/src/duck.cpp" "common/CMakeFiles/duck_common.dir/src/duck.cpp.o" "gcc" "common/CMakeFiles/duck_common.dir/src/duck.cpp.o.d"
   "/home/komal/workspace/head-first-design-pattern/strategy/common/src/duck_fly_behaviour.cpp" "common/CMakeFiles/duck_common.dir/src/duck_fly_behaviour.cpp.o" "gcc" "common/CMakeFiles/duck_common.dir/src/duck_fly_behaviour.cpp.o.d"
+  "/home/komal/workspace/head-first-design-pattern/strategy/common/src/duck_fly_with_wings.cpp" "common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o" "gcc" "common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o.d"
+  "/home/komal/workspace/head-first-design-pattern/strategy/common/src/duck_quack.cpp" "common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.o" "gcc" "common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.o.d"
   "/home/komal/workspace/head-first-design-pattern/strategy/common/src/duck_quack_behaviour.cpp" "common/CMakeFiles/duck_common.dir/src/duck_quack_behaviour.cpp.o" "gcc" "common/CMakeFiles/duck_common.dir/src/duck_quack_behaviour.cpp.o.d"
   )
 

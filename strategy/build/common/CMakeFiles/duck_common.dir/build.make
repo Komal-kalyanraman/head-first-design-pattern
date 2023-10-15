@@ -111,11 +111,41 @@ common/CMakeFiles/duck_common.dir/src/duck_quack_behaviour.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/duck_common.dir/src/duck_quack_behaviour.cpp.s"
 	cd /home/komal/workspace/head-first-design-pattern/strategy/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/komal/workspace/head-first-design-pattern/strategy/common/src/duck_quack_behaviour.cpp -o CMakeFiles/duck_common.dir/src/duck_quack_behaviour.cpp.s
 
+common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o: common/CMakeFiles/duck_common.dir/flags.make
+common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o: ../common/src/duck_fly_with_wings.cpp
+common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o: common/CMakeFiles/duck_common.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o"
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o -MF CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o.d -o CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o -c /home/komal/workspace/head-first-design-pattern/strategy/common/src/duck_fly_with_wings.cpp
+
+common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.i"
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/komal/workspace/head-first-design-pattern/strategy/common/src/duck_fly_with_wings.cpp > CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.i
+
+common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.s"
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/komal/workspace/head-first-design-pattern/strategy/common/src/duck_fly_with_wings.cpp -o CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.s
+
+common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.o: common/CMakeFiles/duck_common.dir/flags.make
+common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.o: ../common/src/duck_quack.cpp
+common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.o: common/CMakeFiles/duck_common.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.o"
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.o -MF CMakeFiles/duck_common.dir/src/duck_quack.cpp.o.d -o CMakeFiles/duck_common.dir/src/duck_quack.cpp.o -c /home/komal/workspace/head-first-design-pattern/strategy/common/src/duck_quack.cpp
+
+common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/duck_common.dir/src/duck_quack.cpp.i"
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/komal/workspace/head-first-design-pattern/strategy/common/src/duck_quack.cpp > CMakeFiles/duck_common.dir/src/duck_quack.cpp.i
+
+common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/duck_common.dir/src/duck_quack.cpp.s"
+	cd /home/komal/workspace/head-first-design-pattern/strategy/build/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/komal/workspace/head-first-design-pattern/strategy/common/src/duck_quack.cpp -o CMakeFiles/duck_common.dir/src/duck_quack.cpp.s
+
 # Object files for target duck_common
 duck_common_OBJECTS = \
 "CMakeFiles/duck_common.dir/src/duck.cpp.o" \
 "CMakeFiles/duck_common.dir/src/duck_fly_behaviour.cpp.o" \
-"CMakeFiles/duck_common.dir/src/duck_quack_behaviour.cpp.o"
+"CMakeFiles/duck_common.dir/src/duck_quack_behaviour.cpp.o" \
+"CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o" \
+"CMakeFiles/duck_common.dir/src/duck_quack.cpp.o"
 
 # External object files for target duck_common
 duck_common_EXTERNAL_OBJECTS =
@@ -123,9 +153,11 @@ duck_common_EXTERNAL_OBJECTS =
 common/libduck_common.a: common/CMakeFiles/duck_common.dir/src/duck.cpp.o
 common/libduck_common.a: common/CMakeFiles/duck_common.dir/src/duck_fly_behaviour.cpp.o
 common/libduck_common.a: common/CMakeFiles/duck_common.dir/src/duck_quack_behaviour.cpp.o
+common/libduck_common.a: common/CMakeFiles/duck_common.dir/src/duck_fly_with_wings.cpp.o
+common/libduck_common.a: common/CMakeFiles/duck_common.dir/src/duck_quack.cpp.o
 common/libduck_common.a: common/CMakeFiles/duck_common.dir/build.make
 common/libduck_common.a: common/CMakeFiles/duck_common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libduck_common.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libduck_common.a"
 	cd /home/komal/workspace/head-first-design-pattern/strategy/build/common && $(CMAKE_COMMAND) -P CMakeFiles/duck_common.dir/cmake_clean_target.cmake
 	cd /home/komal/workspace/head-first-design-pattern/strategy/build/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/duck_common.dir/link.txt --verbose=$(VERBOSE)
 

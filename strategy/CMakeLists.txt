@@ -26,10 +26,10 @@ if(WARNING_FLAG)
 endif()
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
-# include_directories("${PROJECT_SOURCE_DIR}/bl")
+include_directories("${PROJECT_SOURCE_DIR}/bl")
 include_directories("${PROJECT_SOURCE_DIR}/common")
 
-# add_subdirectory(bl)
+add_subdirectory(bl)
 add_subdirectory(common)
 
 ####### GTests ########
@@ -44,7 +44,7 @@ add_executable(DUCK
 )
 
 target_link_libraries(DUCK
-#   duck_bl
+  duck_bl
   duck_common
 )
 

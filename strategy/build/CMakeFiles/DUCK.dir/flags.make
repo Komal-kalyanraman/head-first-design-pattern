@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DVAL_INSTALL_DIR=\"/usr/local/duck\"
 
-CXX_INCLUDES = -I/home/komal/workspace/head-first-design-pattern/strategy/build -I/home/komal/workspace/head-first-design-pattern/strategy/common
+CXX_INCLUDES = -I/home/komal/workspace/head-first-design-pattern/strategy/build -I/home/komal/workspace/head-first-design-pattern/strategy/bl -I/home/komal/workspace/head-first-design-pattern/strategy/common
 
 CXX_FLAGS = -std=gnu++17
 

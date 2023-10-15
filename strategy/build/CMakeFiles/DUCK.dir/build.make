@@ -92,6 +92,7 @@ DUCK_EXTERNAL_OBJECTS =
 
 DUCK: CMakeFiles/DUCK.dir/main.cpp.o
 DUCK: CMakeFiles/DUCK.dir/build.make
+DUCK: bl/libduck_bl.a
 DUCK: common/libduck_common.a
 DUCK: CMakeFiles/DUCK.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DUCK"

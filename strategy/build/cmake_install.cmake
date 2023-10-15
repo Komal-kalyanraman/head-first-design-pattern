@@ -68,6 +68,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/komal/workspace/head-first-design-pattern/strategy/build/bl/cmake_install.cmake")
   include("/home/komal/workspace/head-first-design-pattern/strategy/build/common/cmake_install.cmake")
 
 endif()
