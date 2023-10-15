@@ -4,14 +4,14 @@
 #include <memory>
 #include <iostream>
 
-#include "flyBehavior.hpp"
-#include "quackBehavior.hpp"
+#include "duck_fly_behaviour.hpp"
+#include "duck_quack_behaviour.hpp"
 
 class Duck{
 
     public:
-    std::unique_ptr<FlyBehavior> flyBehavior;
-    std::unique_ptr<QuackBehavior> quackBehavior; 
+    // std::unique_ptr<FlyBehavior> flyBehavior;
+    // std::unique_ptr<QuackBehavior> quackBehavior; 
 
     public:
     

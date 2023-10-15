@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/DUCK.dir/main.cpp.o -o DUCK  common/libduck_common.a 

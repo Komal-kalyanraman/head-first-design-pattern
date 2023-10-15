@@ -1,0 +1,14 @@
+/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles/DUCK.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles/edit_cache.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles/rebuild_cache.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles/list_install_components.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles/install.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles/install/local.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/CMakeFiles/install/strip.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/common/CMakeFiles/duck_common.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/common/CMakeFiles/edit_cache.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/common/CMakeFiles/rebuild_cache.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/common/CMakeFiles/list_install_components.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/common/CMakeFiles/install.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/common/CMakeFiles/install/local.dir
+/home/komal/workspace/head-first-design-pattern/strategy/build/common/CMakeFiles/install/strip.dir

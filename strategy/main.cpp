@@ -1,6 +1,6 @@
 
 #include <memory>
-#include "duck.hpp"
+#include "inc/duck.hpp"
 
 int main(){
     
